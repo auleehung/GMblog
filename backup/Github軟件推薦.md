@@ -1,0 +1,1 @@
+Seal 是一款安卓在线视频下载应用，基于著名的开源下载工具 yt-dlp，支持从数千个视频平台下载视频，内置了 aria2 下载器。[github](https://github.com/JunkFood02/Seal/releases/)  f-droid
