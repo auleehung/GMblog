@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://github.githubassets.com/favicons/favicon.svg"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -73,8 +73,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <div class="markdown-body" id="postBody"><p>据欧洲临床微生物学与感染病学会（ESCMID）消息，<a href="https://www.eurekalert.org/news-releases/1041699" rel="nofollow">荷兰阿姆斯特丹大学（Amsterdam University）的研究人员近日报道了一例感染新冠病毒长达613天的病例，这时迄今已知最长的新冠病毒感染时间</a>。在此期间，新冠病毒在他体内持续突变，出现了超过50个核苷酸突变位点。该病例说明了免疫功能低下个体持续感染新冠病毒的风险，因此需要持续监测这类患者体内的新冠病毒序列。相关研究将于下周公布在2024年第34届欧洲临床微生物与传染病学大会（ECCMID2024）。<br>
 据悉，该患者是一位72岁男性，因感染新冠病毒于2022年2月到阿姆斯特丹大学医学中心住院治疗。该患者曾为治疗骨髓增生相关疾病接受过同种异体干细胞移植，加之移植后患上淋巴瘤，而治疗淋巴瘤的疗法又耗竭了他体内所有可用的B细胞，因此该名患者病情复杂、免疫低下，即便此前已多次接种新冠疫苗，但入院时并未检测到体内产生相应的保护性抗体。测序数据显示，该患者在接受抗新冠病毒抗体治疗后仅21天，其体内的病毒就已经产生了针对这种疗法的突变，到2023年9月，其体内的病毒基因组相比于当时流行的新冠变异株BA.1已经出现了超过50个核苷酸位点，且存在免疫逃逸现象。最终，在持续感染新冠病毒613天后，该患者因血液病复发去世。（ESCMID）</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://auleehung.github.io/GMblog"> Blog Title </a>
 <p>
@@ -129,6 +131,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");

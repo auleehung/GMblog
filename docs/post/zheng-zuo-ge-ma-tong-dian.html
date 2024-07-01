@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://github.githubassets.com/favicons/favicon.svg"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -72,8 +72,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     <div id="content">
 <div class="markdown-body" id="postBody"><p>係東頭受靶果陣時，東頭醫院三間病房都係坐廁。雖然我地B仔住果間主要係自己三個用，但係每日用時唔衛生，要麽蹲上去要麼墊紙巾。所以就谂到自己做个坐廁墊。點做？即刻諗到用報紙再加透明膠。首先用鉛筆同報紙將墊圈劃出形狀，再用剪刀剪出一圈，其實啲囚友係唔俾用利器既，好在醫院裡面既我地B仔可以隨便用。剪出既圈再用透明膠封好就防水啦，再將多餘既修改好就得啦！平時用完疊好放床墊下面，一個人自己用，乾淨又衛生！</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://auleehung.github.io/GMblog"> Blog Title </a>
 <p>
@@ -128,6 +130,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");

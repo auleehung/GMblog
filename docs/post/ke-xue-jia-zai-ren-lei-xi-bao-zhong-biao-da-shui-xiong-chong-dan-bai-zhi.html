@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://github.githubassets.com/favicons/favicon.svg"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -75,8 +75,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <div class="markdown-body" id="postBody"><p>2024年3月29日<br>
 水熊虫以在极端环境下生存的能力著称。它是已知唯一一种能在太空真空环境生存下来的动物。在缺水或极端温度下，水熊虫能进入被称为 tun 的状态——这是一种假死状态，新陈代谢停滞。对绝大多数生物来说，极端环境的压力会损坏 DNA。但水熊虫有损坏抑制蛋白（Dsup）保护 DNA。根据发表在《Protein Science》期刊上的一项研究，美国怀俄明大学研究人员发现，在人类细胞中表达水熊虫关键蛋白能减缓新陈代谢。研究团队专注于名为 CAHS D 的特殊蛋白质，它能对极端干燥提供保护。研究人员演示了 CAHS D 在压力下如何转变为凝胶状状态，保护分子对抗干燥。研究人员称，当压力缓解时，凝胶会溶解，人体细胞会恢复正常的新陈代谢。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://auleehung.github.io/GMblog"> Blog Title </a>
 <p>
@@ -131,6 +133,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");

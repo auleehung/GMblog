@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://github.githubassets.com/favicons/favicon.svg"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -72,8 +72,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     <div id="content">
 <div class="markdown-body" id="postBody"><p>真不想长大怀念小时候！我们是在家庭式幼儿园长大的呵呵[微笑]，园长就是我们的爷爷很严厉喔[强]，救人无数很厉害的一位老中医[强][强][强]，园助是我们的奶奶无微不至照顾十多个小孩的起居饮食，忙完家里忙农活[强]可想言之有多么的忙。无规矩不成方圆还记得爷爷定的规矩老一代的基本都会有，吃饭不能说话，君之离台三尺远，吃饭不能看电视，挟菜只能挟自己前面挟别人对面的是没礼貌，不能和男生玩拉手更不行等等好多[偷笑]…………错了可是真打下去的，当然偶然也会给打一下因为我是和几个姐，哥还有表弟表妹们一起长大是很热闹的，有一点就是别人家没有的我们家才有[嘘][嘘]，从小爷爷教我们喝酒还是米酒[憨笑]，很顽固很有趣的爷爷~奶奶就是他的贤内助。虽然父母外出工作没有童年陪伴但我们的童年依然很热闹很开心，爷爷奶奶，父母您们辛苦啦！没有您们就没有我们。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://auleehung.github.io/GMblog"> Blog Title </a>
 <p>
@@ -128,6 +130,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");
